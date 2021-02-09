@@ -1,0 +1,131 @@
+body {
+  background-color: #1A2E74;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+.app {
+  height: 100vh;
+
+}
+.heading {
+  margin-top: 40px;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  background-color: #2E4288;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.label {
+  flex-grow: 1;
+  position: relative;
+}
+.label-text {
+  position: absolute;
+  top: -1.7em;
+  color: #A6B4D0;
+}
+.input {
+  width: 100%;
+  height: 45px;
+  font-size: 17px;
+  line-height: 1;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+  padding: 14px 17px;
+}
+
+.botton {
+  height: 45px;
+  margin-left: 30px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+  background-color: #456BF2;
+  color: #fff;
+  padding: 14px 50px;
+  font-weight: bold;
+}
+
+.icon {
+  background: url('ticket.svg');
+  width: 170px;
+  height: 170px;
+} 
+
+.app,
+.containier {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containier {
+  max-width: 666px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .icon {
+    width: 70px;
+    height: 70px;
+  }
+  .heading {
+    font-size: 17px;
+    margin-top: 11px;
+  }
+  .content {
+    background: none;
+    padding-left: 25px;
+    padding-right: 25px; 
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .botton {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.news article {
+  background-color: rgb(255, 121, 121);
+}
+
+.news article.new {
+  background-color: red;
+} */
